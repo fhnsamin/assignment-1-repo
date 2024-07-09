@@ -6,6 +6,11 @@
   /* outline: 2px solid red; */
 }
 
+html {
+  scroll-behavior: smooth;
+  /* learnt this from Kevin Powell for smooth scrolling when clicking a href button */
+}
+
 /* Shared styles */
 
 body {
@@ -172,7 +177,7 @@ body {
   margin: 70px auto;
 }
 
-.iframe-container {
+.my-inspiration .iframe-container {
   /* outline: 2px solid green; */
   margin: auto;
   display: flex;
@@ -185,7 +190,7 @@ body {
   padding: 20px 0;
 }
 
-iframe {
+.my-inspiration .iframe-container iframe {
   border-radius: 16px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   margin: 0 auto;
@@ -194,4 +199,34 @@ iframe {
   /* width: 920px; */
   /* height: 480px; */
   /* padding: 20px; */
+}
+
+#footer {
+  background-color: #fafafb;
+}
+
+#footer .footer-container {
+  width: 80%;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+#footer .footer-container .footer-info {
+  font-size: 16px;
+  color: #0d1321;
+  margin: auto 0;
+}
+
+#footer .footer-container .footer-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+#footer .footer-container .footer-links img {
+  height: 32px;
+  width: 32px;
 }
