@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* outline: 2px solid red; */
+}
+
+/* Shared styles */
+body {
+  font-family: "Azeret Mono", monospace;
+  width: 100%;
+}
+
+.section-title {
+}
+
+.description {
+  font-size: 14px;
+  color: #0d1321;
+}
+
+/* hero styles */
+.hero {
+  width: 100%;
+  height: 580px;
+  background-image: url("../assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .banner-container {
+  height: 520px;
+  width: 840px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero .banner-container img {
+  margin-bottom: 24px;
+  height: 150px;
+  width: 150x;
+}
+
+.banner-title {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.hero .banner-container p {
+  margin: 30px 80px;
+}
+
+.contact-btn {
+  font-family: "Azeret Mono", monospace;
+  text-align: center;
+  padding: 16px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #0d1321;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.contact-btn:hover {
+  background-color: #345986;
+  transition: 0.3s all ease-in-out;
+}
