@@ -7,9 +7,9 @@
 }
 
 /* Shared styles */
+
 body {
   font-family: "Azeret Mono", monospace;
-  width: 100%;
 }
 
 .section-title {
@@ -155,4 +155,11 @@ body {
   opacity: 0.8;
   padding: 10px 16px;
   cursor: pointer;
+  transition: 0.1s all ease-in-out;
+}
+
+#why-web-dev .card-btn:hover {
+  background-color: #0d1321;
+  color: white;
+  transition: 0.1s all ease-in-out;
 }
