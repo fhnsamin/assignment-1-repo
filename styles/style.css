@@ -163,3 +163,35 @@ body {
   color: white;
   transition: 0.1s all ease-in-out;
 }
+
+/* my inspiration section style */
+
+.my-inspiration {
+  /* outline: 2px solid green; */
+  width: 80%;
+  margin: 70px auto;
+}
+
+.iframe-container {
+  /* outline: 2px solid green; */
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  padding: 20px 0;
+}
+
+iframe {
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  width: 90%;
+  height: 90%;
+  /* width: 920px; */
+  /* height: 480px; */
+  /* padding: 20px; */
+}
