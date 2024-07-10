@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* outlisne: 2px solid red; */
+  /* outline: 2px solid red; */
 }
 
 html {
@@ -13,7 +13,7 @@ html {
 
 /* Shared styles */
 
-body {
+body * {
   font-family: "Azeret Mono", monospace;
 }
 
@@ -101,7 +101,6 @@ body {
 /* why-web-dev section styles */
 
 #why-web-dev {
-  /* outline: 2px solid green; */
   width: 80%;
   margin: 70px auto;
   background-color: #fafafb;
@@ -110,7 +109,6 @@ body {
 }
 
 .web-dev-card {
-  /* outline: 2px solid green; */
   width: 80%;
   display: flex;
   justify-content: space-between;
@@ -122,7 +120,6 @@ body {
 }
 
 .reverse-web-dev-card {
-  /* outline: 2px solid green; */
   width: 80%;
   display: flex;
   gap: 50px;
@@ -172,13 +169,11 @@ body {
 /* my inspiration section style */
 
 #my-inspiration {
-  /* outline: 2px solid green; */
   width: 80%;
   margin: 70px auto;
 }
 
 #my-inspiration .iframe-container {
-  /* outline: 2px solid green; */
   margin: auto;
   display: flex;
   align-items: center;
@@ -203,12 +198,7 @@ body {
 
 /* current-target section styles */
 
-#current-target * {
-  /* outline: 2px solid red; */
-}
-
 #current-target {
-  /* outline: 2px solid green; */
   width: 80%;
   margin: 70px auto;
 }
@@ -281,7 +271,6 @@ body {
 
 #support .support-container {
   width: 60%;
-  /* outline: 2px solid green; */
 }
 
 #support .support-title {
@@ -302,7 +291,6 @@ body {
 #support .input-container {
   width: 90%;
   margin: 18px auto;
-  /* outline: 2px solid green; */
   display: flex;
   align-items: center;
   gap: 12px;
