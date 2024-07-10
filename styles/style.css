@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* outline: 2px solid red; */
+  /* outlisne: 2px solid red; */
 }
 
 html {
@@ -171,13 +171,13 @@ body {
 
 /* my inspiration section style */
 
-.my-inspiration {
+#my-inspiration {
   /* outline: 2px solid green; */
   width: 80%;
   margin: 70px auto;
 }
 
-.my-inspiration .iframe-container {
+#my-inspiration .iframe-container {
   /* outline: 2px solid green; */
   margin: auto;
   display: flex;
@@ -190,7 +190,7 @@ body {
   padding: 20px 0;
 }
 
-.my-inspiration .iframe-container iframe {
+#my-inspiration .iframe-container iframe {
   border-radius: 16px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   margin: 0 auto;
@@ -199,6 +199,66 @@ body {
   /* width: 920px; */
   /* height: 480px; */
   /* padding: 20px; */
+}
+
+/* current-target section styles */
+
+#current-target * {
+  /* outline: 2px solid red; */
+}
+
+#current-target {
+  /* outline: 2px solid green; */
+  width: 80%;
+  margin: 70px auto;
+}
+
+#current-target .skill-card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  width: 100%;
+}
+
+#current-target .skill-card-container .skill-card {
+  flex: 1;
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.skill-card-container .html-card {
+  background-color: #fff6f4;
+}
+
+.skill-card-container .css-card {
+  background-color: #f2f6fe;
+}
+
+.skill-card-container .js-card {
+  background-color: #fffdf2;
+}
+
+.skill-card .skill-card-icon {
+  margin-bottom: 24px;
+}
+
+.skill-card .skill-card-title {
+  font-size: 18px;
+  font-weight: 800;
+  color: #0d1321;
+  margin-bottom: 12px;
+}
+
+.skill-card .learn-more-link {
+  margin-top: 24px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #0d1321;
+}
+
+.learn-more-link a {
+  color: #0d1321;
 }
 
 /* support section styles */
